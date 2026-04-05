@@ -116,10 +116,19 @@ The system ensures that users can only access data based on their roles and owne
 
 ---
 
-##  Testing
+## API Testing (Postman)
 
-All APIs are tested using **Postman Collection**.
-JWT token is required for accessing secured endpoints.
+The Postman collection for all APIs is included in this repository.
+
+### How to use:
+1. Open Postman
+2. Click Import
+3. Select the file: `finance-backend-postman-collection.json`
+4. Test all endpoints
+
+Note:
+- Base URL: http://localhost:8081
+- Use JWT token from login API for secured endpoints
 
 ---
 
@@ -142,4 +151,4 @@ JWT token is required for accessing secured endpoints.
 
 ## 👨‍ Author
 
-Developed as part of backend internship assignment.
+Yugraj Mewara
